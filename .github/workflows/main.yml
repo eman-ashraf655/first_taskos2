@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: 'printing folder contents'
-        uses: ls
+        uses: ls -al
 
       
