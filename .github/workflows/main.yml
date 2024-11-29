@@ -1,1 +1,16 @@
-
+on:
+    push:
+      branches:
+        - master  # أو 'main' حسب الفرع المستخدم في مشروعك
+  
+  jobs:
+    build:
+      runs-on: ubuntu-latest  # تم تصحيح "ubunto" إلى "ubuntu"
+      
+      steps:
+        - name: 'Testing GitHub Action'  # تم تصحيح التنسيق
+          run: pwd
+          
+        - name: 'Testing Printing'  # تم تصحيح التنسيق
+          run: echo Eman
+  
